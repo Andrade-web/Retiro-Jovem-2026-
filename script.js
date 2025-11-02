@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Usa uma estrutura switch para lidar com diferentes ações
             switch (action) {
                 case 'fazer-inscricao':
-                    window.open('https://docs.google.com/forms/d/e/1FAIpQLSecJTS4W6jFqrnzD2BMF30NFlLTGTtsJeKiifXKaUE9PPB7kA/viewfo', '_blank');
+                    window.open('https:', '_blank');
                     // **AQUI você adicionaria a lógica real para a inscrição:**
                     // Ex: window.location.href = 'https://link-para-formulario-de-inscricao.com';
                     // Ex: Abrir um modal com o formulário
@@ -47,3 +47,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
