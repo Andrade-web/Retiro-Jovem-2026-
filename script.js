@@ -11,13 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Usa uma estrutura switch para lidar com diferentes ações
             switch (action) {
                 case 'fazer-inscricao':
-                    window.open('https:', '_blank');
+                    window.open('https://docs.google.com/forms/d/e/1FAIpQLScrxDnotwoXZbxPsyz4d6edHXUMx7RZdjRPCBzc-_Yed7B0nA/viewform?usp=header', '_blank');
                     // **AQUI você adicionaria a lógica real para a inscrição:**
                     // Ex: window.location.href = 'https://link-para-formulario-de-inscricao.com';
                     // Ex: Abrir um modal com o formulário
                     break;
                     case 'fazer-pagamento':
-                    window.location.href = 'https://loja.infinitepay.io/guilherme-as/drq7329-inscricao-acampamento-jovem';
+                    window.location.href = 'https://linknabio.gg/osconectados';
                     // **AQUI você adicionaria a lógica real para a inscrição:**
                     // Ex: window.location.href = 'https://link-para-formulario-de-inscricao.com';
                     // Ex: Abrir um modal com o formulário
@@ -40,11 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Lógica para mostrar o endereço ou mapa do local do evento
                     // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
                     break;
+                    case 'entrar-grupo':
+                    window.open('https://chat.whatsapp.com/LkICPE0yUZ42Kjwku3F2sf?mode=wwt', '_blank');
+                    // Lógica para mostrar o endereço ou mapa do local do evento
+                    // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
+                    break;
                 default:
                     console.warn('Ação desconhecida para o botão:', action);
             }
         });
     });
-
 });
-
