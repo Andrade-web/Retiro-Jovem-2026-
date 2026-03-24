@@ -1,7 +1,7 @@
 /* Estilos gerais */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fonte padrão, pode ser ajustada */
-    background-color: #1b1b1b; /* Cor de fundo clara */
+    background-color: #ffffff; /* Cor de fundo clara */
     margin: 0;
     padding: 0;
     display: flex; /* Para centralizar o menu verticalmente na tela */
@@ -69,8 +69,8 @@ body {
 .menu-button {
     width: 100%; /* Ocupa a largura total do container pai */
     padding: 15px 20px; /* Preenchimento interno do botão */
-    background-color: #4804D9; /* Cor de fundo do botão (cinza claro similar ao exemplo) */
-    color: #ffffff; /* Cor do texto do botão */
+    background-color: #e6e6e6; /* Cor de fundo do botão (cinza claro similar ao exemplo) */
+    color: #000000; /* Cor do texto do botão */
     border: none; /* Remove a borda padrão do botão */
     border-radius: 8px; /* Cantos arredondados */
     font-size: 1.0em; /* Tamanho da fonte do botão */
