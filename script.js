@@ -16,19 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Ex: window.location.href = 'https://link-para-formulario-de-inscricao.com';
                     // Ex: Abrir um modal com o formulário
                     break;
-                    case 'fazer-pagamento':
-                    window.location.href = 'https://linknabio.gg/osconectados';
-                    // **AQUI você adicionaria a lógica real para a inscrição:**
-                    // Ex: window.location.href = 'https://link-para-formulario-de-inscricao.com';
-                    // Ex: Abrir um modal com o formulário
-                    break;
                 case 'informacoes-basicas':
                     window.location.href = 'detalhes_acampamento.html';
                     // Lógica para exibir informações básicas do acampamento
                     // Ex: window.location.href = 'informacoes-basicas.html';
                     break;
                 case 'baixar-documento-permissao':
-                    window.open('aut.pdf', '_blank');
+                    window.open('autt.pdf', '_blank');
                     break;
                 case 'proibicoes':
                     window.location.href = 'proibicoes.html';
@@ -36,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Ex: Abrir um modal ou exibir texto na própria página
                     break;
                 case 'local-evento':
-                    window.open('https://maps.app.goo.gl/R8yjAkBbxkFhFebA6', '_blank');
+                    window.open('https://www.chacarashekinah.com.br/Galeria', '_blank');
                     // Lógica para mostrar o endereço ou mapa do local do evento
                     // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
                     break;
