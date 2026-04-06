@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Ex: window.location.href = 'https://link-para-formulario-de-inscricao.com';
                     // Ex: Abrir um modal com o formulário
                     break;
+                case 'fazer-inscricao-a':
+                    window.open('https://docs.google.com/forms/d/e/1FAIpQLSfNBLu1d8-2THSCU-YZJMWe09hJQJAazSbQ0IuFVGmU1hAeyw/viewform?usp=header', '_blank');
+                    // **AQUI você adicionaria a lógica real para a inscrição:**
+                    // Ex: window.location.href = 'https://link-para-formulario-de-inscricao.com';
+                    // Ex: Abrir um modal com o formulário
+                    break;
                 case 'informacoes-basicas':
                     window.location.href = 'detalhes_acampamento.html';
                     // Lógica para exibir informações básicas do acampamento
@@ -34,8 +40,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Lógica para mostrar o endereço ou mapa do local do evento
                     // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
                     break;
-                    case 'entrar-grupo':
+                case 'entrar-grupo':
                     window.open('https://chat.whatsapp.com/LkICPE0yUZ42Kjwku3F2sf?mode=wwt', '_blank');
+                    // Lógica para mostrar o endereço ou mapa do local do evento
+                    // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
+                    break;
+                case 'entrar-grupo-i':
+                    window.open('https://chat.whatsapp.com/IhDPsnQhroX9UFBjZzGkJR?mode=gi_t', '_blank');
+                    // Lógica para mostrar o endereço ou mapa do local do evento
+                    // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
+                    break;
+                case 'entrar-grupo-a':
+                    window.open('https://chat.whatsapp.com/F9JFfaMXigl9zkpM21qunk?mode=gi_t', '_blank');
                     // Lógica para mostrar o endereço ou mapa do local do evento
                     // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
                     break;
