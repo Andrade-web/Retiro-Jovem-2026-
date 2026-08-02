@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
                     break;
                 case 'entrar-grupo-a':
-                    window.open('https://chat.whatsapp.com/F9JFfaMXigl9zkpM21qunk?mode=gi_t', '_blank');
+                    window.open('https://chat.whatsapp.com/ItOeaoMhxv51m3ouIwDai9?s=cl&p=i&mlu=0', '_blank');
                     // Lógica para mostrar o endereço ou mapa do local do evento
                     // Ex: window.open('https://maps.app.goo.gl/SEU_ENDERECO_AQUI', '_blank');
                     break;
